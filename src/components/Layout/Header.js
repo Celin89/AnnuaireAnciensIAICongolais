@@ -88,17 +88,23 @@ export default function Header() {
       <AppBar position="static" color="default" elevation={0} className={classes.appBar}>
         <Toolbar className={classes.toolbar}>
           <Typography variant="h6" color="inherit" noWrap className={classes.toolbarTitle}>
-            PORTAIL DES ANCIENS IAI
-          </Typography>
+            ANCIENS IAI CONGOLAIS 
+          </Typography> 
           <nav>
             <Link variant="button" color="textPrimary" href="/App" className={classes.link}>
               ACCUEIL
             </Link>
-            <Link variant="button" color="textPrimary" href="/Membre" className={classes.link}>
-              MEMBRES
+            <Link variant="button" color="textPrimary" href="/Actualites" className={classes.link}>
+              ACTUALITES
             </Link>
-            <Link variant="button" color="textPrimary" href="#" className={classes.link}>
-              INFORMATIONS
+            <Link variant="button" color="textPrimary" href="/Realisations" className={classes.link}>
+              NOS REALISATIONS
+            </Link>
+            <Link variant="button" color="textPrimary" href="/Annuaire" className={classes.link}>
+              ANNUAIRE
+            </Link>
+            <Link variant="button" color="textPrimary" href="/Forum" className={classes.link}> 
+              FORUM
             </Link>
           </nav>
           <Button href="/SignIn" color="primary" variant="outlined" className={classes.link}>
